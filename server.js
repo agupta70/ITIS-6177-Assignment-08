@@ -82,7 +82,7 @@ app.get('/agents', (request, response) => {
  *            $ref: "#definitions/putOperation"
  *    responses:
  *      200:
- *       description: Returns a success message
+ *       description: Returns the affected row
  * definitions:
  *   putOperation:
  *     type: object
@@ -166,7 +166,7 @@ app.put('/agents', (request, response) => {
  *            $ref: "#definitions/postOperation"
  *    responses:
  *      200:
- *       description: Returns a success message
+ *       description: Returns the affected row
  * definitions:
  *   postOperation:
  *     type: object
@@ -300,7 +300,7 @@ app.delete('/agents', (request, response) => {
  *            $ref: "#definitions/patchOperation"
  *    responses:
  *      200:
- *       description: Returns a success message
+ *       description: Returns the affected row
  * definitions:
  *   patchOperation:
  *     type: object
